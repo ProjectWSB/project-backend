@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: workflow
-      run:
-        python -c "print('Hello, World!')"
+      run: echo "Hello World"
